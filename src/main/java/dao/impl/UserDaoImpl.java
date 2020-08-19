@@ -1,10 +1,9 @@
 package dao.impl;
 
+import java.util.List;
 import dao.UserDao;
 import db.Storage;
 import model.User;
-
-import java.util.List;
 
 public class UserDaoImpl implements UserDao {
     public void add(User user) {

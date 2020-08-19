@@ -1,10 +1,9 @@
 package dao.impl;
 
+import java.util.List;
 import dao.BetDao;
 import db.Storage;
 import model.Bet;
-
-import java.util.List;
 
 public class BetDaoImpl implements BetDao {
     public void add(Bet bet) {

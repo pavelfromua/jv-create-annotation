@@ -1,9 +1,8 @@
 package controller;
 
+import java.util.Scanner;
 import dao.BetDao;
 import model.Bet;
-
-import java.util.Scanner;
 
 public class ConsoleHandler {
     private BetDao betDao;
