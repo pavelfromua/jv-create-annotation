@@ -1,8 +1,8 @@
 package dao.impl;
 
-import java.util.List;
 import dao.BetDao;
 import db.Storage;
+import java.util.List;
 import model.Bet;
 
 public class BetDaoImpl implements BetDao {
