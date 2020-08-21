@@ -1,7 +1,7 @@
 package project.controller;
 
-import project.dao.Dao;
 import java.util.Scanner;
+import project.dao.Dao;
 import project.lib.Inject;
 import project.model.Bet;
 import project.model.User;
@@ -20,7 +20,7 @@ public class ConsoleHandler {
             Bet bet = null;
             User user = null;
 
-            String command  = "";
+            String command = "";
 
             try {
                 command = scanner.nextLine();

@@ -1,11 +1,11 @@
 package project;
 
+import java.lang.reflect.InvocationTargetException;
 import project.controller.ConsoleHandler;
 import project.dao.Dao;
 import project.exceptions.DaoModelNullException;
 import project.factory.Factory;
 import project.lib.Injector;
-import java.lang.reflect.InvocationTargetException;
 
 public class Main {
     public static void main(String[] args) throws InvocationTargetException,
