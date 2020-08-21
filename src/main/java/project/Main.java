@@ -2,13 +2,9 @@ package project;
 
 import project.controller.ConsoleHandler;
 import project.dao.Dao;
-import project.dao.impl.BetDaoImpl;
 import project.exceptions.DaoModelNullException;
 import project.factory.Factory;
 import project.lib.Injector;
-import project.model.Bet;
-import project.model.User;
-
 import java.lang.reflect.InvocationTargetException;
 
 public class Main {

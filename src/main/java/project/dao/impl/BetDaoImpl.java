@@ -1,11 +1,10 @@
 package project.dao.impl;
 
 import project.dao.Dao;
-import project.db.Storage;
 import java.util.List;
+import project.db.Storage;
 import project.lib.DaoAn;
 import project.model.Bet;
-import project.model.User;
 
 @DaoAn
 public class BetDaoImpl implements Dao<Bet> {

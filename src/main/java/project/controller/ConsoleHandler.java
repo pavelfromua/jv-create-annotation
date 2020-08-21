@@ -1,10 +1,10 @@
 package project.controller;
 
 import project.dao.Dao;
+import java.util.Scanner;
 import project.lib.Inject;
 import project.model.Bet;
 import project.model.User;
-import java.util.Scanner;
 
 public class ConsoleHandler {
     @Inject

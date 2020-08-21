@@ -7,5 +7,5 @@ public interface Dao<T> {
 
     List<T> getAll();
 
-    T getNewModel(String ...argv);
+    T getNewModel(String...argv);
 }

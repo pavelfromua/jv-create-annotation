@@ -2,15 +2,13 @@ package project.lib;
 
 import project.exceptions.DaoModelNullException;
 import project.factory.Factory;
-import project.model.Bet;
-import project.model.User;
-
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
-
+import project.model.Bet;
+import project.model.User;
 
 public class Injector {
     public static Object getInstance(Class clazz) throws NoSuchMethodException,
